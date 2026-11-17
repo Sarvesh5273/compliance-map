@@ -10,7 +10,7 @@ Built for the TinyFish **Compliance Map** launch bounty.
 
 The gallery shows dated, reviewed research snapshots. Run the full app below to compare a new activity or set of places using the live API.
 
-![Compliance Map comparison](artifacts/company-summary.png)
+![Compliance Map comparison](artifacts/ui-company-summary.png)
 
 ## Run
 
@@ -90,6 +90,14 @@ The council's semantic review corrected model mistakes, including Scottish volun
 The 42-test suite exercises misleading government URLs, unsupported fees and times, missing places and categories, duplicate sources, incomplete/ranged costs, incomparable currencies, empty evidence, and non-final research synthesis. See [the independent acceptance review](docs/acceptance-review.md).
 
 The council used separate implementation and review responsibilities: backend and research integration, interface, and independent acceptance/evidence audit. The primary agent integrated the work and exercised the live pipeline.
+
+## Interface and UI/UX guidance
+
+The interface uses the [UI UX Pro Max skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), pinned to commit `e59ff376a41f7ca47b7541ad5c116495cbade3ee`. Its government-interface guidance informed the readable navy/blue theme, typography, focus states and consistent controls. See [DESIGN.md](DESIGN.md) and the generated [design system](design-system/compliance-map/MASTER.md).
+
+Reports have uniform category/search filters, expandable requirement details, sticky desktop place headers, a mobile place selector and a searchable source browser. Unknown applicability does not become a bold exemption or zero-fee claim. Printing and JSON export preserve the complete underlying report even when the screen is filtered.
+
+The interface passed 38 targeted Chrome checks at desktop, tablet and mobile widths, including keyboard source dialogs, reduced motion and complete print/export content. This is a focused usability audit, not a full WCAG certification. Results and scope are in [the UI/UX audit](docs/ui-ux-audit.md).
 
 ## Configuration and deployment
 

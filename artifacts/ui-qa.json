@@ -1,0 +1,514 @@
+{
+  "checkedAt": "2026-11-17T12:28:47.403Z",
+  "baseUrl": "http://127.0.0.1:5173",
+  "demos": [
+    "cafe",
+    "company"
+  ],
+  "passed": 38,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Home: document fits desktop viewport",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "Home: labeled activity and place fields remain available",
+      "passed": true,
+      "detail": {
+        "bodyFontSize": 16
+      }
+    },
+    {
+      "name": "cafe: three real places keep comparison columns aligned",
+      "passed": true,
+      "detail": {
+        "places": [
+          "Westminster, London, England",
+          "Manchester, England",
+          "Edinburgh, Scotland"
+        ],
+        "requirements": 43,
+        "rows": 6
+      }
+    },
+    {
+      "name": "cafe: individual expansion preserves steps, renewals, filings and citations",
+      "passed": true,
+      "detail": {
+        "requirementId": "westminster-london-england-wcc-01",
+        "citations": 1
+      }
+    },
+    {
+      "name": "cafe: source dialog supports keyboard entry, focus wrapping and Escape",
+      "passed": true,
+      "detail": {
+        "focusableControls": 2
+      }
+    },
+    {
+      "name": "cafe: recurring charges and non-applicable approvals retain their meaning",
+      "passed": true,
+      "detail": {
+        "annualRequirement": null,
+        "nonApplicableRequirement": "westminster-london-england-wcc-03"
+      }
+    },
+    {
+      "name": "cafe: unknown applicability cannot display a confident exemption or zero-charge conclusion",
+      "passed": true,
+      "detail": {
+        "unknownRequirementsChecked": 7,
+        "unconfirmedClaimSample": null
+      }
+    },
+    {
+      "name": "cafe: category and search filters do not shift place columns",
+      "passed": true,
+      "detail": {
+        "filteredCount": 9,
+        "restoredCount": 43
+      }
+    },
+    {
+      "name": "cafe: source library search and clear restore real evidence",
+      "passed": true,
+      "detail": {
+        "sources": 51,
+        "verificationOptions": [
+          {
+            "value": "all",
+            "text": "All statuses (51)"
+          },
+          {
+            "value": "matched",
+            "text": "Excerpt matched (39)"
+          },
+          {
+            "value": "reachable",
+            "text": "Reached, excerpt unconfirmed (9)"
+          },
+          {
+            "value": "unavailable",
+            "text": "Unavailable (3)"
+          },
+          {
+            "value": "rejected",
+            "text": "Rejected (0)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "cafe: filtered-screen JSON export preserves the full report",
+      "passed": true,
+      "detail": {
+        "requirements": 43,
+        "places": 3,
+        "sources": 51
+      }
+    },
+    {
+      "name": "cafe: printing includes every underlying requirement despite active filters",
+      "passed": true,
+      "detail": {
+        "printedRequirements": 43,
+        "printedPlaces": 3
+      }
+    },
+    {
+      "name": "cafe: document fits desktop viewport",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "company: three real places keep comparison columns aligned",
+      "passed": true,
+      "detail": {
+        "places": [
+          "Wyoming, United States",
+          "Delaware, United States",
+          "California, United States"
+        ],
+        "requirements": 34,
+        "rows": 6
+      }
+    },
+    {
+      "name": "company: individual expansion preserves steps, renewals, filings and citations",
+      "passed": true,
+      "detail": {
+        "requirementId": "wyoming-united-states-WY-BR-001",
+        "citations": 1
+      }
+    },
+    {
+      "name": "company: source dialog supports keyboard entry, focus wrapping and Escape",
+      "passed": true,
+      "detail": {
+        "focusableControls": 2
+      }
+    },
+    {
+      "name": "company: recurring charges and non-applicable approvals retain their meaning",
+      "passed": true,
+      "detail": {
+        "annualRequirement": "california-united-states-CA-TX-001",
+        "nonApplicableRequirement": "wyoming-united-states-WY-BR-002"
+      }
+    },
+    {
+      "name": "company: unknown applicability cannot display a confident exemption or zero-charge conclusion",
+      "passed": true,
+      "detail": {
+        "unknownRequirementsChecked": 4,
+        "unconfirmedClaimSample": "wyoming-united-states-WY-TX-002"
+      }
+    },
+    {
+      "name": "company: category and search filters do not shift place columns",
+      "passed": true,
+      "detail": {
+        "filteredCount": 13,
+        "restoredCount": 34
+      }
+    },
+    {
+      "name": "company: source library search and clear restore real evidence",
+      "passed": true,
+      "detail": {
+        "sources": 51,
+        "verificationOptions": [
+          {
+            "value": "all",
+            "text": "All statuses (51)"
+          },
+          {
+            "value": "matched",
+            "text": "Excerpt matched (48)"
+          },
+          {
+            "value": "reachable",
+            "text": "Reached, excerpt unconfirmed (2)"
+          },
+          {
+            "value": "unavailable",
+            "text": "Unavailable (1)"
+          },
+          {
+            "value": "rejected",
+            "text": "Rejected (0)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "company: filtered-screen JSON export preserves the full report",
+      "passed": true,
+      "detail": {
+        "requirements": 34,
+        "places": 3,
+        "sources": 51
+      }
+    },
+    {
+      "name": "company: printing includes every underlying requirement despite active filters",
+      "passed": true,
+      "detail": {
+        "printedRequirements": 34,
+        "printedPlaces": 3
+      }
+    },
+    {
+      "name": "company: document fits desktop viewport",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "name": "Home 375px: no horizontal page overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 375,
+        "document": 375,
+        "body": 375
+      }
+    },
+    {
+      "name": "cafe 375px: place selection exposes every place",
+      "passed": true,
+      "detail": {
+        "places": [
+          "Westminster, London, England (14 matches)",
+          "Manchester, England (13 matches)",
+          "Edinburgh, Scotland (16 matches)"
+        ]
+      }
+    },
+    {
+      "name": "cafe 375px: expansion and citations remain touch accessible",
+      "passed": true,
+      "detail": {
+        "summaryHeight": 46
+      }
+    },
+    {
+      "name": "cafe 375px: reduced motion and readable controls",
+      "passed": true,
+      "detail": {
+        "fields": [
+          {
+            "label": "activity",
+            "fontSize": 16,
+            "height": 49
+          },
+          {
+            "label": "Place 1",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Place 2",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Place 3",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Search requirements",
+            "fontSize": 16,
+            "height": 47
+          },
+          {
+            "label": "Requirement category",
+            "fontSize": 16,
+            "height": 47
+          },
+          {
+            "label": "View requirements for place",
+            "fontSize": 16,
+            "height": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "company 375px: place selection exposes every place",
+      "passed": true,
+      "detail": {
+        "places": [
+          "Wyoming, United States (11 matches)",
+          "Delaware, United States (11 matches)",
+          "California, United States (12 matches)"
+        ]
+      }
+    },
+    {
+      "name": "company 375px: expansion and citations remain touch accessible",
+      "passed": true,
+      "detail": {
+        "summaryHeight": 46
+      }
+    },
+    {
+      "name": "company 375px: reduced motion and readable controls",
+      "passed": true,
+      "detail": {
+        "fields": [
+          {
+            "label": "activity",
+            "fontSize": 16,
+            "height": 49
+          },
+          {
+            "label": "Place 1",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Place 2",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Place 3",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Search requirements",
+            "fontSize": 16,
+            "height": 47
+          },
+          {
+            "label": "Requirement category",
+            "fontSize": 16,
+            "height": 47
+          },
+          {
+            "label": "View requirements for place",
+            "fontSize": 16,
+            "height": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "Home 768px: no horizontal page overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 768,
+        "document": 768,
+        "body": 768
+      }
+    },
+    {
+      "name": "cafe 768px: place selection exposes every place",
+      "passed": true,
+      "detail": {
+        "places": [
+          "Westminster, London, England (14 matches)",
+          "Manchester, England (13 matches)",
+          "Edinburgh, Scotland (16 matches)"
+        ]
+      }
+    },
+    {
+      "name": "cafe 768px: expansion and citations remain touch accessible",
+      "passed": true,
+      "detail": {
+        "summaryHeight": 44
+      }
+    },
+    {
+      "name": "cafe 768px: reduced motion and readable controls",
+      "passed": true,
+      "detail": {
+        "fields": [
+          {
+            "label": "activity",
+            "fontSize": 16,
+            "height": 49
+          },
+          {
+            "label": "Place 1",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Place 2",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Place 3",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Search requirements",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Requirement category",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "View requirements for place",
+            "fontSize": 16,
+            "height": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "company 768px: place selection exposes every place",
+      "passed": true,
+      "detail": {
+        "places": [
+          "Wyoming, United States (11 matches)",
+          "Delaware, United States (11 matches)",
+          "California, United States (12 matches)"
+        ]
+      }
+    },
+    {
+      "name": "company 768px: expansion and citations remain touch accessible",
+      "passed": true,
+      "detail": {
+        "summaryHeight": 44
+      }
+    },
+    {
+      "name": "company 768px: reduced motion and readable controls",
+      "passed": true,
+      "detail": {
+        "fields": [
+          {
+            "label": "activity",
+            "fontSize": 16,
+            "height": 49
+          },
+          {
+            "label": "Place 1",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Place 2",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Place 3",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Search requirements",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "Requirement category",
+            "fontSize": 16,
+            "height": 44
+          },
+          {
+            "label": "View requirements for place",
+            "fontSize": 16,
+            "height": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "No paid research request made by UI QA",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No uncaught browser errors",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

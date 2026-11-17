@@ -1,0 +1,23 @@
+{
+  "skill": "ui-ux-pro-max",
+  "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "commit": "e59ff376a41f7ca47b7541ad5c116495cbade3ee",
+  "license": "MIT",
+  "checkedDate": "2026-11-17",
+  "githubStarsAtCheck": 150684,
+  "repositoryLastPushAtCheck": "2026-11-16T04:10:04Z",
+  "installedPath": "/Users/sarvesh/.codex/skills/ui-ux-pro-max",
+  "installer": "Codex skill-installer/scripts/install-skill-from-github.py",
+  "sourceSkillPath": ".claude/skills/ui-ux-pro-max",
+  "localDesignQuery": "government compliance comparison dashboard",
+  "selectedStyle": "Accessible & Ethical",
+  "alternativeReviewed": {
+    "repository": "https://github.com/pbakaus/impeccable",
+    "githubStarsAtCheck": 111783,
+    "repositoryLastPushAtCheck": "2026-11-17T12:03:00Z"
+  },
+  "notes": [
+    "Stars measure popularity; fit was assessed from the original skill contents and local design results.",
+    "The interface changes do not modify regulatory facts, research data, source statuses, or API credentials."
+  ]
+}
