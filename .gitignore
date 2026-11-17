@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-server/
+dist-pages/
+.env
+.env.*
+!.env.example
+data/jobs/
+data/raw/
+data/evidence/
+artifacts/*.webm
+*.log
+.DS_Store

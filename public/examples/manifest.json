@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cafe",
+    "title": "Open a small café",
+    "activity": "Open a small café",
+    "places": [
+      "Westminster, London, England",
+      "Manchester, England",
+      "Edinburgh, Scotland"
+    ],
+    "checkedAt": "2026-11-17T11:27:03.354Z",
+    "description": "Saved live TinyResearch, with dated independent TinyFetch checks and documented semantic review. Original provider output is archived unchanged."
+  },
+  {
+    "id": "company",
+    "title": "Register a single member LLC",
+    "activity": "Register a single member LLC",
+    "places": [
+      "Wyoming, United States",
+      "Delaware, United States",
+      "California, United States"
+    ],
+    "checkedAt": "2026-11-17T11:27:03.888Z",
+    "description": "Saved live TinyResearch, with dated independent TinyFetch checks and documented semantic review. Original provider output is archived unchanged."
+  }
+]

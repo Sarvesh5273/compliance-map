@@ -1,0 +1,10 @@
+node_modules
+.git
+.env
+.env.*
+dist
+dist-server
+data/jobs
+data/raw
+data/evidence
+artifacts

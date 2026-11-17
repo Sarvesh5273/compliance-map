@@ -1,0 +1,19 @@
+{
+  "name": "compliance-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Compare startup compliance across places with live official evidence from TinyResearch.",
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"tsx watch server/index.ts\" \"vite --host 127.0.0.1\"",
+    "dev:server": "tsx watch server/index.ts",
+    "dev:web": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && esbuild server/index.ts --bundle --platform=node --target=node22 --format=esm --packages=external --outfile=dist-server/index.js",
+    "start": "node dist-server/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": { "cors": "^2.8.5", "dotenv": "^17.2.3", "express": "^5.1.0", "react": "^19.2.0", "react-dom": "^19.2.0" },
+  "devDependencies": { "@types/cors": "^2.8.19", "@types/express": "^5.0.5", "@types/node": "^24.10.0", "@types/react": "^19.2.0", "@types/react-dom": "^19.2.0", "@vitejs/plugin-react": "^5.1.0", "concurrently": "^9.2.1", "esbuild": "^0.25.12", "playwright": "^1.56.1", "tsx": "^4.20.6", "typescript": "^5.9.3", "vite": "^7.2.2" }
+}
